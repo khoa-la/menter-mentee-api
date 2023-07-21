@@ -1,0 +1,4 @@
+﻿
+
+dotnet ef dbcontext scaffold "Server=18.136.108.204;Database=MentorMenteeConnect;UID=admin;PWD=Nguyenduy111;" Microsoft.EntityFrameworkCore.SqlServer -o Models --force
+Scaffold-DbContext "Server=18.136.108.204;Database=MentorMenteeConnect;UID=admin;PWD=Nguyenduy111;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
